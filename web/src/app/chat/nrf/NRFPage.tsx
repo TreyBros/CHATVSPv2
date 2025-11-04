@@ -356,7 +356,7 @@ export default function NRFPage({
           ) : (
             <div className="flex flex-col items-center">
               <h2 className="text-center text-xl text-strong font-bold mb-4">
-                Welcome to Onyx
+                Welcome to ChatVSP
               </h2>
               <Button
                 className="bg-agent w-full hover:bg-accent-hover text-white"

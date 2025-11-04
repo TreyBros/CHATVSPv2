@@ -68,7 +68,7 @@ export const STEP_NAVIGATION: Record<
 export const FINAL_SETUP_CONFIG: FinalStepItemProps[] = [
   {
     title: "Select web search provider",
-    description: "Enable Onyx to search the internet for information.",
+    description: "Enable ChatVSP to search the internet for information.",
     icon: SvgGlobe,
     buttonText: "Web Search",
     buttonHref: "https://docs.onyx.app/overview/core_features/web_search",
@@ -122,7 +122,7 @@ export const MODAL_CONTENT_MAP: Record<string, any> = {
         </>
       ),
       default_model_name:
-        "This model will be used by Onyx by default for chatGPT.",
+        "This model will be used by ChatVSP by default for chatGPT.",
     },
   },
   anthropic: {
@@ -144,7 +144,7 @@ export const MODAL_CONTENT_MAP: Record<string, any> = {
         </>
       ),
       default_model_name:
-        "This model will be used by Onyx by default for Claude.",
+        "This model will be used by ChatVSP by default for Claude.",
     },
   },
   ollama_chat: {
@@ -167,7 +167,7 @@ export const MODAL_CONTENT_MAP: Record<string, any> = {
         </>
       ),
       default_model_name:
-        "This model will be used by Onyx by default for Ollama.",
+        "This model will be used by ChatVSP by default for Ollama.",
     },
   },
   vertex_ai: {
@@ -190,7 +190,7 @@ export const MODAL_CONTENT_MAP: Record<string, any> = {
         </>
       ),
       default_model_name:
-        "This model will be used by Onyx by default for Gemini.",
+        "This model will be used by ChatVSP by default for Gemini.",
     },
   },
   azure: {
@@ -213,7 +213,7 @@ export const MODAL_CONTENT_MAP: Record<string, any> = {
         </>
       ),
       default_model_name:
-        "This model will be used by Onyx by default for Azure OpenAI.",
+        "This model will be used by ChatVSP by default for Azure OpenAI.",
     },
   },
   openrouter: {
@@ -235,7 +235,7 @@ export const MODAL_CONTENT_MAP: Record<string, any> = {
         </>
       ),
       default_model_name:
-        "This model will be used by Onyx by default for OpenRouter.",
+        "This model will be used by ChatVSP by default for OpenRouter.",
     },
   },
   bedrock: {

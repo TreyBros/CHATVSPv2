@@ -124,7 +124,7 @@ export default function AgentCard({ agent }: AgentCardProps) {
         <div className="bg-background-tint-01 p-1 flex flex-row items-end justify-between">
           {/* Left side - creator and actions */}
           <div className="flex flex-col gap-1 py-1 px-2">
-            <IconLabel icon={SvgUser}>{agent.owner?.email || "Onyx"}</IconLabel>
+            <IconLabel icon={SvgUser}>{agent.owner?.email || "ChatVSP"}</IconLabel>
             <IconLabel icon={SvgActions}>
               {agent.tools.length > 0
                 ? `${agent.tools.length} Action${

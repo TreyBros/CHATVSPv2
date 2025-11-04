@@ -446,7 +446,7 @@ function ChatInputBarInner({
             selectedAssistant.id === 0
               ? `How can ${
                   combinedSettings?.enterpriseSettings?.application_name ||
-                  "Onyx"
+                  "ChatVSP"
                 } help you today`
               : `How can ${selectedAssistant.name} help you today`
           }

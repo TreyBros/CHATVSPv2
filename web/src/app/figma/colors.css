@@ -67,19 +67,19 @@
   --alpha-grey-00-05: #ffffff0d;
   --alpha-grey-00-00: #ffffff00;
 
-  /* Blue Scale */
-  --blue-95: #040e25;
-  --blue-90: #091938;
-  --blue-85: #11254e;
-  --blue-80: #173268;
-  --blue-60: #3363c3;
-  --blue-50: #286df8;
-  --blue-45: #397bff;
-  --blue-40: #508afb;
-  --blue-20: #9bbeff;
-  --blue-10: #cddfff;
-  --blue-05: #e7effc;
-  --blue-01: #f8fafe;
+  /* Blue Scale - VSP Blue Theme */
+  --blue-95: #0a1433;
+  --blue-90: #141f4d;
+  --blue-85: #1f2d66;
+  --blue-80: #2a3b80;
+  --blue-60: #3558c0;
+  --blue-50: #4169E1;
+  --blue-45: #5277E3;
+  --blue-40: #6485E5;
+  --blue-20: #a0b3ef;
+  --blue-10: #d0d9f7;
+  --blue-05: #e7ecfb;
+  --blue-01: #f8f9fe;
 
   /* Green Scale */
   --green-95: #001503;
@@ -201,10 +201,10 @@
 
 /* Brand Colors */
 :root {
-  /* Onyx / Ink */
-  --onyx-ink-100: #000000;
-  --onyx-ink-95: #1c1c1c;
-  --onyx-ink-90: #333333;
+  /* ChatVSP / Primary Blue */
+  --onyx-ink-100: #4169E1;
+  --onyx-ink-95: #5277E3;
+  --onyx-ink-90: #6485E5;
 
   /* Onyx / Chrome */
   --onyx-chrome-20: #cacaca;
@@ -413,9 +413,9 @@
   --border-inverted-01: var(--grey-10);
 
   /* Theme */
-  --theme-primary-06: var(--onyx-chrome-00);
-  --theme-primary-05: var(--onyx-chrome-10);
-  --theme-primary-04: var(--onyx-chrome-20);
+  --theme-primary-06: var(--blue-40);
+  --theme-primary-05: var(--blue-45);
+  --theme-primary-04: var(--blue-50);
 
   /* Status */
   --status-success-05: var(--green-50);

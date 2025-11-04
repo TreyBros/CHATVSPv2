@@ -382,8 +382,8 @@ export const connectorConfigs: Record<
                 label: "Include shared drives?",
                 description: (currentCredential) => {
                   return currentCredential?.credential_json?.google_tokens
-                    ? "This will allow Onyx to index everything in the shared drives you have access to."
-                    : "This will allow Onyx to index everything in your Organization's shared drives.";
+                    ? "This will allow ChatVSP to index everything in the shared drives you have access to."
+                    : "This will allow ChatVSP to index everything in your Organization's shared drives.";
                 },
                 name: "include_shared_drives",
                 default: false,
@@ -397,8 +397,8 @@ export const connectorConfigs: Record<
                 },
                 description: (currentCredential) => {
                   return currentCredential?.credential_json?.google_tokens
-                    ? "This will allow Onyx to index everything in your My Drive."
-                    : "This will allow Onyx to index everything in everyone's My Drives.";
+                    ? "This will allow ChatVSP to index everything in your My Drive."
+                    : "This will allow ChatVSP to index everything in everyone's My Drives.";
                 },
                 name: "include_my_drives",
                 default: false,
@@ -406,7 +406,7 @@ export const connectorConfigs: Record<
               {
                 type: "checkbox",
                 description:
-                  "This will allow Onyx to index all files shared with you.",
+                  "This will allow ChatVSP to index all files shared with you.",
                 label: "Include All Files Shared With You?",
                 name: "include_files_shared_with_me",
                 visibleCondition: (values, currentCredential) =>
@@ -716,7 +716,7 @@ export const connectorConfigs: Record<
                 name: "requested_objects",
                 optional: true,
                 description:
-                  "Specify the Salesforce object types you want us to index. If unsure, don't specify any objects and Onyx will default to indexing by 'Account'." +
+                  "Specify the Salesforce object types you want us to index. If unsure, don't specify any objects and ChatVSP will default to indexing by 'Account'." +
                   "\n\nHint: Use the singular form of the object name (e.g., 'Opportunity' instead of 'Opportunities').",
               },
             ],
