@@ -1,0 +1,17 @@
+[
+    {"ParameterKey": "OnyxNamespace", "ParameterValue": "onyx"}
+,
+    {"ParameterKey": "Environment", "ParameterValue": "production"}
+,
+    {"ParameterKey": "EFSName", "ParameterValue": "onyx-efs"}
+,
+    {"ParameterKey": "AWSRegion", "ParameterValue": "us-east-2"}
+,
+    {"ParameterKey": "VpcID", "ParameterValue": "vpc-00f98d23b86accc68"}
+,
+    {"ParameterKey": "SubnetIDs", "ParameterValue": "subnet-0c620894cc79bd4d5,subnet-055e38ff9c41c3db3"}
+,
+    {"ParameterKey": "DomainName", "ParameterValue": "chat.prosourceit.ai"}
+,
+    {"ParameterKey": "ValidationMethod", "ParameterValue": "DNS"}
+]

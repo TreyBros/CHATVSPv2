@@ -6,11 +6,11 @@
 
   // Region and VPC Stuff
   "AWSRegion": "us-east-2",
-  "VpcID": "YOUR_VPC_ID",
-  "SubnetIDs": "YOUR_SUBNET_ID1,YOUR_SUBNET_ID2",
+  "VpcID": "vpc-00f98d23b86accc68",
+  "SubnetIDs": "subnet-0c620894cc79bd4d5,subnet-055e38ff9c41c3db3",
 
   // Domain and ACM Stuff
-  "DomainName": "YOUR_DOMAIN e.g ecs.onyx.app",
+  "DomainName": "chat.prosourceit.ai",
   "ValidationMethod": "DNS",
   "HostedZoneId": ""  // Only specify if using Route 53 for DNS
 } 
